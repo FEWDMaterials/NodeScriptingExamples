@@ -9,6 +9,10 @@
   "author": "Mottaqui Karim",
   "license": "ISC",
   "dependencies": {
+    "mkdirp": "^0.5.1",
     "superagent": "^1.4.0"
+  },
+  "bin": {
+    "njscopy": "./app.js"
   }
 }
