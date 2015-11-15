@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "colors": "^1.1.2"
+  },
+  "bin": {
+    "njscopy_3": "./index.js"
   }
 }

@@ -1,0 +1,57 @@
+html {
+	font-size: @fontSize;
+}
+
+body {
+	background-color: @bodyColor;
+	color: @fontColor;
+}
+
+.search-form {
+	width: 80%;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.search-form__input {
+	width: 80%;
+	box-sizing: border-box;
+	padding: 15px;
+	border-radius: 5px;
+	border: 1px solid @bodyColor;
+	background-color: white;
+	color: @bodyColor;
+	font-size: 1.5rem;
+}
+
+.search-form__submit {
+	width: 15%;
+	box-sizing: border-box;
+	padding: 15px;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	background-color: @bodyColor;
+	color: @fontColor;
+	margin-left: 2%;
+	border: none;
+}
+
+.results {
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.results__anch {
+	font-size: 1.5rem;
+	color: @fontColor;
+	margin: 10px 0;
+}
+
+
+
+

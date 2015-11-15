@@ -1,4 +1,6 @@
-var colors = require('colors');
-var FileIO = require('./FileIO');
+#! /usr/bin/env node
 
-FileIO.copy( './package.json', 'anotherPackage.json' );
+var FileIO = require('./FileIO');
+var args = require('./processArgs')();
+
+FileIO.copy( args.read, args.write );
