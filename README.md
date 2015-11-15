@@ -1,29 +1,10 @@
-# How to globally link
+## Module pattern
 
-in package.json
+```js
+var myModule = (function() {
 
-```json
-  "bin": {
-    "njscopy": "./app.js"
-  }
+	var ToDos = [];
+
+	return ToDos;
+})();
 ```
-
-then, in terminal, globally install everything in your current working directory
-
-```bash
->> npm install -g .
-```
-
-finally, run
-
-```bash
->> npm link
-```
-
-if all goes well, if you do
-
-```bash
-njscopy -h
-```
-
-you should see the help files show up!

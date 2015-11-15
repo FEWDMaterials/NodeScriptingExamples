@@ -1,8 +1,0 @@
-
-
-Options :																										   
-	-f, -file 		: file path to copy from			
-	-o, -output 		: path to copy to, NO trailing slash
-	-c, -copiedFilePage	: [optional], name of copied file
-
-
